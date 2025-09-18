@@ -36,9 +36,9 @@ let categoria = categorias.find(function(faixa){
     let imc = peso / (altura * altura);
     return imc;
   }
-//Está correto?    
+
 	calculaMediaValida() {
-    let notasAtletas = this.obtemNotasAtleta();
+      let notasAtletas = this.obtemNotasAtleta();
       notasAtletas.sort(function(a, b) {
         return a - b;
       });
