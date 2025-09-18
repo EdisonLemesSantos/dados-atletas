@@ -84,13 +84,13 @@ const atleta = new Atleta("Cesar Abascal",
 	10, 20, 1.10,
 	[8, 6, 9, 10, 10]);
     //console.log(`Nome: ${atleta.obtemNomeAtleta()}\n
-Idade: ${atleta.obtemIdadeAtleta()}\n
-Peso: ${atleta.obtemPesoAtleta()}\n
-Altura: ${atleta.altura}\n
-Notas: ${atleta.obtemNotasAtleta()}\n
-Categorias: ${atleta.obtemCategoria()}\n
-IMC: ${atleta.obtemIMC()}\n
-Media: ${atleta.calculaMediaValida()}`);
+//Idade: ${atleta.obtemIdadeAtleta()}\n
+//Peso: ${atleta.obtemPesoAtleta()}\n
+//Altura: ${atleta.altura}\n
+//Notas: ${atleta.obtemNotasAtleta()}\n
+//Categorias: ${atleta.obtemCategoria()}\n
+//IMC: ${atleta.obtemIMC()}\n
+//Media: ${atleta.calculaMediaValida()}`);
     console.log(atleta.dadosAtleta());
     console.log("-------------------------------------");
     console.log(atleta2.dadosAtleta());
